@@ -123,9 +123,6 @@ def reset_quiz():
     st.session_state.allow_next = False
 
 def main():
-    st.title("MCQ Quiz Generator")
-    st.markdown("Answer the questions to test your knowledge.")
-
     # Parse the MCQs from the embedded text
     questions = parse_mcqs(mcqs_text)
 
